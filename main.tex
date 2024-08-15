@@ -1,0 +1,226 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from: 
+% http://www.LaTeXTemplates.com
+%
+% Original author: Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,sans]{moderncv} 
+% Font sizes: 10, 11, or 12; 
+% paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; 
+% font families: sans or roman.
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{soul}
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%------------------------------------------------------------------------------
+
+\firstname{Peiyang} % Your first name
+\familyname{Song} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{}
+\address{1200 E California Blvd, Pasadena, CA}{}
+\mobile{Contact: 820-587-3320}
+\email{psong@caltech.com}
+\homepage{https://peiyang-song.github.io/}{https://peiyang-song.github.io/} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+% \photo[70pt][0.4pt]{pictures/daniele} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+% \quote{"A witty and playful quotation" - John Smith}
+
+%------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Education}}
+\vspace{0.5em}
+
+\cvitem{6/2026}{\textbf{California Institute of Technology} \hfill Pasadena, CA}
+\cvitem{}{\textit{B.S. in Computer Science}}
+\cvitem{}{GPA: 4.0/4.0}
+
+\vspace{1em}
+
+%------------------------------------------------------------------------------
+%	RESERACH INTERESTS SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Research Interests}}
+\vspace{0.5em}
+
+Machine Learning $\cdot$ Natural Language Processing $\cdot$ Automated Reasoning $\cdot$ Neuro-Symbolic AI
+
+\vspace{1em}
+
+%------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Work Experience}}
+\vspace{0.5em}
+
+\cvitem{6/2024 -- Present}{\textbf{Stanford University} \hfill Palo Alto, CA}
+\cvitem{}{\textit{Researcher @ \href{https://ai.stanford.edu/}{Stanford AI Lab (SAIL)} and \href{https://cocolab.stanford.edu/}{Computation \& Cognition Lab}}}
+\cvitem{}{Advisors: Prof. \href{https://cocolab.stanford.edu/ndg}{Noah Goodman} (Stanford), \href{https://gpoesia.com/}{Gabriel Poesia} (Stanford)}
+
+\vspace{1em}
+
+\cvitem{2/2023 -- Present}{\textbf{California Institute of Technology} \hfill Pasadena, CA}
+\cvitem{}{\textit{SURF Research Fellow @ \href{http://tensorlab.cms.caltech.edu/users/anima/index.html}{Anima AI+Science Lab}}}
+\cvitem{}{Advisors: Prof. \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar} (Caltech), Dr. \href{https://yangky11.github.io/}{Kaiyu Yang} (Meta)}
+
+\vspace{1em}
+
+\cvitem{11/2022 -- 6/2024}{\textbf{University of California, Santa Barbara} \hfill Santa Barbara, CA}
+\cvitem{}{\textit{Researcher @ \href{https://www.arch.cs.ucsb.edu/}{Computer Architecture Lab (ArchLab)}}}
+\cvitem{}{Advisors: Prof. \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood} (UCSB), Dr. \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau} (Google)}
+
+\vspace{1em}
+
+%------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Selected Publications}}
+\vspace{0.5em}
+
+\cvitem{Preprint}{\textbf{Temporal Activation and Real-Soft-Max Functions}}
+\cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, and \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
+\cvitem{}{\textit{In submission}}
+
+\vspace{1em}
+
+\cvitem{Preprint}{\textbf{\href{https://openreview.net/pdf?id=qu6sMJmEwl}{In-Context Learning May Not Elicit Trustworthy Reasoning: A-Not-B Errors in Pretrained Language Models}}}
+\cvitem{}{\href{https://www.linkedin.com/in/pengrui-han-barry-17167b227/}{Pengrui Han}*, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}*, \href{https://haofeiyu.me/}{Haofei Yu}, \href{https://cs.stanford.edu/people/jiaxuan/}{Jiaxuan You} (* Equal Contribution)}
+\cvitem{}{\textit{ICML Workshop on LLMs and Cognition, 2024}}
+
+\vspace{1em}
+
+\cvitem{Preprint}{\textbf{\href{https://github.com/lean-dojo/LeanCopilot}{Towards Large Language Models as Copilots for Theorem Proving in Lean}}}
+\cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://yangky11.github.io/}{Kaiyu Yang}, and \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
+\cvitem{}{\textit{NeurIPS Mathematical Reasoning and AI (MATH-AI) Workshop, 2023}}
+
+\vspace{1em}
+
+\cvitem{ASPLOS 2024}{\textbf{\href{https://dl.acm.org/doi/10.1145/3620665.3640395}{Energy Efficient Convolution with Temporal Arithmetic}}}
+\cvitem{}{\href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://ireap.umd.edu/clark/staff/1448/Advait-Madhavan}{Advait Madhavan}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, and \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
+\cvitem{}{ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2024}
+
+\vspace{1em}
+
+\cvitem{NeurIPS 2023}{\textbf{\href{https://leandojo.org/}{LeanDojo: Theorem Proving with Retrieval-Augmented Language Models}}}
+\cvitem{}{\href{https://yangky11.github.io/}{Kaiyu Yang}, \href{https://aidanswope.com/about}{Aidan Swope}, \href{https://minimario.github.io/}{Alex Gu}, \href{https://rchalamala.github.io/}{Rahul Chalamala}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://billysx.github.io/}{Shixing Yu}, \href{https://www.linkedin.com/in/saad-godil-9728353/}{Saad Godil}, \href{https://www.linkedin.com/in/ryan-prenger-18797ba1/}{Ryan Prenger}, and \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
+\cvitem{}{Neural Information Processing Systems (NeurIPS), 2023, \textbf{Oral presentation}}
+
+\vspace{1em}
+
+%------------------------------------------------------------------------------
+%	AWARDS & HONORS SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Awards \& Honors}}
+\vspace{0.5em}
+
+\cvitem{8/2023}{\textbf{Early Research Scholarship}}
+
+\vspace{0.5em}
+
+\cvitem{4/2023}{\textbf{Caltech SURF award}}
+
+\vspace{0.5em}
+
+\cvitem{9/2022}{\textbf{UCSB Creative Studies Honors}}
+
+\vspace{1em}
+
+%------------------------------------------------------------------------------
+%	MEDIA SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Selected Media}}
+\vspace{0.5em}
+
+\cvitem{2024}{\textbf{\href{https://www.marktechpost.com/2024/07/30/lean-copilot-an-ai-tool-that-allows-large-language-models-llms-to-be-used-in-lean-for-proof-automation/}{Lean Copilot: An AI Tool that Allows Large Language Models (LLMs) to be used in Lean for Proof Automation}}}
+\cvitem{}{\textit{MarkTechPost}}
+
+\vspace{0.5em}
+
+\cvitem{2023}{\textbf{\href{https://www.marktechpost.com/2023/07/01/can-llms-generate-mathematical-proofs-that-can-be-rigorously-checked-meet-leandojo-an-open-source-ai-playground-with-toolkits-benchmarks-and-models-for-large-language-models-to-prove-formal-theore/}{Can LLMs Generate Mathematical Proofs that can be Rigorously Checked?}}}
+\cvitem{}{\textit{MarkTechPost}}
+
+\vspace{1em}
+
+%------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%------------------------------------------------------------------------------
+
+\section{\textbf{Languages}}
+\vspace{0.5em}
+
+\cvitem{Programming}{Python, C++, Lean, Java, C, PASCAL, OCaml, C\#}
+
+\vspace{0.5em}
+
+\cvitem{Ordinary}{English (TOEFL 117/120), Mandarin (Native)}
+
+\vspace{1em}
+
+%----------------------------------------------------------------------------------------
+%	TALKS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Invited Talks}}
+\vspace{0.5em}
+
+\cvitem{}{\textbf{Towards Large Language Models as Copilots for Theorem Proving in Lean}}
+\vspace{0.5em}
+\cvitem{9/2024}{3rd Neuro-Symbolic AI Summer School (NeSy) 2024}
+\cvitem{11/2023}{CCS Research \& Creative Activities Conference (RACA-CON) 2023}
+\cvitem{8/2023}{Caltech SURF Seminar Day 2023}
+
+\vspace{1em}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC SERVICES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{\textbf{Academic Services}}
+\vspace{0.5em}
+
+\cvitem{\textbf{Reviewer}}{Conference on Neural Information Processing Systems (NeurIPS)}
+\cvitem{}{NeurIPS Mathematical Reasoning and AI (MATH-AI) Workshop}
+\cvitem{}{ICML Workshop on LLMs and Cognition}
+
+\vspace{1em}
+
+\end{document}
