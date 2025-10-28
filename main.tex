@@ -35,6 +35,10 @@
 \setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
+
+\newcommand{\sz}[1]{{\color{orange}[[Shichang: #1]]}}
+
+
 %-----------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
 %-----------------------------------------------------------------
@@ -57,13 +61,13 @@
 %	EDUCATION SECTION
 %-----------------------------------------------------------------
 
-\vspace{-1.5em}
 \section{\textbf{Education}}
 \vspace{0.5em}
 
 \cvitem{6/2026}{\textbf{California Institute of Technology} \hfill Pasadena, CA}
 \cvitem{(expected)}{\textit{B.S. in Computer Science \& Minor in Robotics}}
-\cvitem{}{Advisors: Prof. \href{https://netlab.caltech.edu/}{Steven Low} \& Prof. \href{https://scholar.google.com/citations?user=-YP8MJ0AAAAJ}{Günter Niemeyer}. GPA: \textbf{4.2/4.0}}
+\cvitem{}{Advisors: Prof. \href{https://netlab.caltech.edu/}{Steven Low} \& Prof. \href{https://scholar.google.com/citations?user=-YP8MJ0AAAAJ}{Günter Niemeyer}.}
+\cvitem{}{GPA: \textbf{4.2/4.0} (some courses occasionally offer A+ grade = 4.3)}
 
 %-----------------------------------------------------------------
 %	RESERACH INTERESTS SECTION
@@ -71,15 +75,16 @@
 
 \section{\textbf{Research Interests}}
 \vspace{0.5em}
-
-My research centers on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{neuro-symbolic AI}. This agenda unfolds along one central axis and extends to two broader directions:
+    
+My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{neuro-symbolic AI}. I aim to advance intelligent agents capable of rigorous reasoning by combining the strengths of neural and symbolic paradigms, with one central theme and two adjacent directions:
 \vspace{0.5em}
 \begin{itemize}
-  \item \textbf{Central axis:} Integrating LLM reasoning, agentic AI, and neuro-symbolic methods by combining \textit{neural} models (LLMs) with formal \textit{symbolic} systems (e.g., Lean) to advance LLM-based agents for formal reasoning in mathematics and verifiable code.
+
+  \item \textbf{Central theme:} Integrating LLM reasoning, agentic AI, and neuro-symbolic methods by combining \textit{neural} models (LLMs) with \textit{symbolic} systems (e.g., Lean) to advance LLM-based agents for formal reasoning in mathematics and code.
   \vspace{0.5em}
-  \item \textbf{Broader LLM reasoning:} Extending LLM reasoning beyond formal domains, exploring how LLMs can tackle informal reasoning in natural language, inspired by cognitive science principles and studies of human-like reasoning.
+  \item \textbf{Broader LLM reasoning:} Extending from formal to informal reasoning, exploring how LLMs can better handle reasoning in natural language contexts, informed by \textit{cognitive science} principles and studies of \textit{human-like reasoning} processes.
   \vspace{0.5em}
-  \item \textbf{Broader neuro-symbolic AI:} Building general neuro-symbolic approaches towards fundamental AI systems beyond formal reasoning, such as developing energy-efficient inference and machine translation across idioms and languages.
+  \item \textbf{Broader neuro-symbolic AI:} Applying neuro-symbolic approaches to broader AI challenges beyond formal reasoning, including the design of fundamental, energy-efficient machine learning systems.
 \end{itemize}
 
 %-----------------------------------------------------------------
@@ -90,7 +95,7 @@ My research centers on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \vspace{0.5em}
 
 \cvitem{6/2025 -- Present}{\textbf{University of California, Berkeley} \hfill Berkeley, CA}
-\cvitem{}{\textit{Researcher @ \href{https://bair.berkeley.edu/}{Berkeley Artificial Intelligence Research (BAIR) Lab}}}
+\cvitem{}{\textit{Researcher @ \href{https://bair.berkeley.edu/}{Berkeley AI Research (BAIR) Lab} and \href{https://dawnsong.io/}{Sunblaze Group}}}
 \cvitem{}{Advisors: Prof. \href{https://dawnsong.io/}{Dawn Song} (UCB), Dr. \href{https://jxhe.info/}{Jingxuan He} (UCB)}
 
 \vspace{0.5em}
@@ -115,49 +120,10 @@ My research centers on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 %	PUBLICATIONS SECTION
 %-----------------------------------------------------------------
 
-\section{\textbf{Selected Publications}}
+\section{\textbf{Selected Publications \& Preprints}}
 \vspace{0.5em}
 
-\cvitem{Preprint}{\textbf{Energy-Aware Temporal Function Approximation}}
-\cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, and \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
-\cvitem{}{\textit{In Submission, Manuscript Available upon Request}}
-
-\vspace{0.5em}
-
-\cvitem{Preprint}{\textbf{\href{https://openreview.net/forum?id=hsgMn4KBFG}{A Survey on Large Language Model Reasoning Failures}}}
-\cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}*, \href{https://pengruihan.github.io/}{Pengrui Han}*, \href{https://cocolab.stanford.edu/ndg.html}{Noah Goodman} (* Equal Contribution)}
-\cvitem{}{\textit{ICML AI for Math (AI4MATH) Workshop, 2025}}
-
-\vspace{0.5em}
-
-\cvitem{Preprint}{\textbf{AI Impact on Human Proof Formalization Workflows}}
-\cvitem{}{\href{https://collinskatie.github.io/}{Katherine M. Collins}, \href{https://www.friederrr.org/}{Simon Frieder}, \href{https://www.maths.cam.ac.uk/person/jcb234}{Jonas Bayer}, \href{https://uk.linkedin.com/in/jacob-loader-a47764181}{Jacob Loader}, \href{https://www.its.caltech.edu/~jlim/}{Jeck Lim}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.fabianzaiser.com/}{Fabian Zasier}, \href{https://lexzhou.github.io/}{Lexin Zhou}, \href{https://lithiumda.github.io/}{Shanda Li}, \href{https://sites.google.com/view/s-looi/home}{Shi-Zhuo Looi}, \href{https://josephorallo.webs.upv.es/}{Jose Hernandez-Orallo}, \href{https://web.mit.edu/cocosci/josh.html}{Joshua B. Tenenbaum}, \href{https://cfreer.org/}{Cameron Freer}, \href{https://umangsbhatt.github.io/}{Umang Bhatt}, \href{https://mlg.eng.cam.ac.uk/adrian/}{Adrian Weller}, \href{https://valeriechen.github.io/}{Valerie Chen}, \href{https://ilia10000.github.io/}{Ilia Sucholutsky}}
-\cvitem{}{\textit{NeurIPS Workshop on Mathematical Reasoning and AI (MATH-AI), 2025}}
-
-\vspace{0.5em}
-
-\cvitem{Preprint}{\textbf{\href{https://arxiv.org/abs/2509.03730}{The Personality Illusion: Revealing Dissociation Between Self-Reports \& Behavior in LLMs}}}
-\cvitem{}{\href{https://pengruihan.github.io/}{Pengrui Han}*, \href{https://www.rkocielnik.com/}{Rafal D. Kocielnik}*, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.collectivedesign.group.cam.ac.uk/}{Ramit Debnath}, \href{https://www.deanmobbslab.com/people}{Dean Mobbs}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}, \href{https://www.rmichaelalvarez.com/}{R. Michael Alvarez}}
-\cvitem{}{\textit{NeurIPS LAW Workshop: Bridging Language, Agent, and World Models, 2025}}
-
-\vspace{0.5em}
-
-\cvitem{Preprint}{\textbf{\href{https://arxiv.org/abs/2502.17925}{LeanProgress: Guiding Search for Neural Theorem Proving via Proof Progress Prediction}}}
-\cvitem{}{\href{https://hsz0403.github.io/}{Suozhi Huang}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.robertj1.com/}{Robert Joseph George}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
-\cvitem{}{\textit{ICLR VerifAI: AI Verification in the Wild Workshop, 2025}}
-
-\vspace{0.5em}
-
-\cvitem{IEEE Micro 2025}{\textbf{\href{https://ieeexplore.ieee.org/abstract/document/11082679}{Delay Space Arithmetic and Architecture}}}
-\cvitem{}{\href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://ieeexplore.ieee.org/author/38529297900}{Advait Madhavan}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
-\cvitem{}{\textit{IEEE Micro, 2025}, \textbf{Top Picks}}
-
-\vspace{0.5em}
-
-\cvitem{ICLR 2025}{\textbf{\href{https://arxiv.org/abs/2410.06209}{LeanAgent: Lifelong Learning for Formal Theorem Proving}}}
-\cvitem{}{\href{https://www.linkedin.com/in/adarsh-kumarappan}{Adarsh Kumarappan*}, \href{https://motiwari.com/}{Mo Tiwari*}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.robertj1.com/}{Robert Joseph George}, \href{https://xiaocw11.github.io/}{Chaowei Xiao}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
-\cvitem{}{\textit{International Conference on Learning Representations (ICLR), 2025}}
-
+\subsection*{\textbf{Archival Publications}}
 \vspace{0.5em}
 
 \cvitem{NeuS 2025}{\textbf{\href{https://arxiv.org/abs/2404.12534}{Lean Copilot: Large Language Models as Copilots for Theorem Proving in Lean}}}
@@ -168,14 +134,26 @@ Neuro-Symbolic Systems (NeuS), 2025}}
 
 \vspace{0.5em}
 
-\cvitem{EMNLP 2024}{\textbf{\href{https://arxiv.org/abs/2410.00988}{Creative and Context-Aware Translation of East Asian Idioms with GPT-4}}}
-\cvitem{}{\href{https://www.linkedin.com/in/kenan-tang-1682a11a0/}{Kenan Tang}*, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}*, \href{https://yaoqin1.github.io/}{Yao Qin}, \href{https://sites.cs.ucsb.edu/~xyan/}{Xifeng Yan} (* Equal Contribution)}
-\cvitem{}{\textit{Findings of Empirical Methods in Natural Language Processing (EMNLP), 2024}}
+\cvitem{IEEE Micro 2025}{\textbf{\href{https://ieeexplore.ieee.org/abstract/document/11082679}{Delay Space Arithmetic and Architecture}}}
+\cvitem{}{\href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://ieeexplore.ieee.org/author/38529297900}{Advait Madhavan}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
+\cvitem{}{\textit{IEEE Micro, 2025}, \textbf{Top Picks}}
+
+\vspace{0.5em}
+
+\cvitem{ICLR 2025}{\textbf{\href{https://arxiv.org/abs/2410.06209}{LeanAgent: Lifelong Learning for Formal Theorem Proving}}}
+\cvitem{}{\href{https://www.linkedin.com/in/adarsh-kumarappan}{Adarsh Kumarappan}$^\star$, \href{https://motiwari.com/}{Mo Tiwari}$^\star$, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.robertj1.com/}{Robert Joseph George}, \href{https://xiaocw11.github.io/}{Chaowei Xiao}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
+\cvitem{}{\textit{International Conference on Learning Representations (ICLR), 2025}}
 
 \vspace{0.5em}
 
 \cvitem{EMNLP 2024}{\textbf{\href{https://arxiv.org/abs/2409.15454}{In-Context Learning May Not Elicit Trustworthy Reasoning: A-Not-B Errors in Pretrained Language Models}}}
-\cvitem{}{\href{https://pengruihan.github.io/}{Pengrui Han}*, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}*, \href{https://haofeiyu.me/}{Haofei Yu}, \href{https://cs.stanford.edu/people/jiaxuan/}{Jiaxuan You} (* Equal Contribution)}
+\cvitem{}{\href{https://pengruihan.github.io/}{Pengrui Han}$^\star$, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}$^\star$, \href{https://haofeiyu.me/}{Haofei Yu}, \href{https://cs.stanford.edu/people/jiaxuan/}{Jiaxuan You} ($^\star$ Equal Contribution)}
+\cvitem{}{\textit{Findings of Empirical Methods in Natural Language Processing (EMNLP), 2024}}
+
+\vspace{0.5em}
+
+\cvitem{EMNLP 2024}{\textbf{\href{https://arxiv.org/abs/2410.00988}{Creative and Context-Aware Translation of East Asian Idioms with GPT-4}}}
+\cvitem{}{\href{https://www.linkedin.com/in/kenan-tang-1682a11a0/}{Kenan Tang}$^\star$, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}$^\star$, \href{https://yaoqin1.github.io/}{Yao Qin}, \href{https://sites.cs.ucsb.edu/~xyan/}{Xifeng Yan} ($^\star$ Equal Contribution)}
 \cvitem{}{\textit{Findings of Empirical Methods in Natural Language Processing (EMNLP), 2024}}
 
 \vspace{0.5em}
@@ -189,6 +167,39 @@ Neuro-Symbolic Systems (NeuS), 2025}}
 \cvitem{NeurIPS 2023}{\textbf{\href{https://leandojo.org/}{LeanDojo: Theorem Proving with Retrieval-Augmented Language Models}}}
 \cvitem{}{\href{https://yangky11.github.io/}{Kaiyu Yang}, \href{https://aidanswope.com/about}{Aidan Swope}, \href{https://minimario.github.io/}{Alex Gu}, \href{https://rchalamala.github.io/}{Rahul Chalamala}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://billysx.github.io/}{Shixing Yu}, \href{https://www.linkedin.com/in/saad-godil-9728353/}{Saad Godil}, \href{https://www.linkedin.com/in/ryan-prenger-18797ba1/}{Ryan Prenger}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
 \cvitem{}{\textit{Neural Information Processing Systems (NeurIPS), 2023}, \textbf{Oral Presentation}}
+
+\vspace{0.5em}
+
+\subsection*{\textbf{Preprints}}
+\vspace{0.5em}
+
+\cvitem{Preprint}{\textbf{\href{https://openreview.net/forum?id=hsgMn4KBFG}{A Survey on Large Language Model Reasoning Failures}}}
+\cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}$^\star$, \href{https://pengruihan.github.io/}{Pengrui Han}$^\star$, \href{https://cocolab.stanford.edu/ndg.html}{Noah Goodman} ($^\star$ Equal Contribution)}
+\cvitem{}{\textit{ICML AI for Math (AI4MATH) Workshop, 2025}}
+
+\vspace{0.5em}
+
+\cvitem{Preprint}{\textbf{AI Impact on Human Proof Formalization Workflows}}
+\cvitem{}{\href{https://collinskatie.github.io/}{Katherine M. Collins$^\star$}, \href{https://www.friederrr.org/}{Simon Frieder$^\star$}, \href{https://www.maths.cam.ac.uk/person/jcb234}{Jonas Bayer}, \href{https://uk.linkedin.com/in/jacob-loader-a47764181}{Jacob Loader}, \href{https://www.its.caltech.edu/~jlim/}{Jeck Lim}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.fabianzaiser.com/}{Fabian Zasier}, \href{https://lexzhou.github.io/}{Lexin Zhou}, \href{https://lithiumda.github.io/}{Shanda Li}, \href{https://sites.google.com/view/s-looi/home}{Shi-Zhuo Looi}, \href{https://josephorallo.webs.upv.es/}{Jose Hernandez-Orallo}, \href{https://web.mit.edu/cocosci/josh.html}{Joshua B. Tenenbaum}, \href{https://cfreer.org/}{Cameron Freer}, \href{https://umangsbhatt.github.io/}{Umang Bhatt}, \href{https://mlg.eng.cam.ac.uk/adrian/}{Adrian Weller}, \href{https://valeriechen.github.io/}{Valerie Chen}$^\dagger$, \href{https://ilia10000.github.io/}{Ilia Sucholutsky}$^\dagger$ ($^\star$ Equal Contribution, $^\dagger$ Equal Advising)}
+\cvitem{}{\textit{NeurIPS Workshop on Mathematical Reasoning and AI (MATH-AI), 2025}}
+
+\vspace{0.5em}
+
+\cvitem{Preprint}{\textbf{\href{https://arxiv.org/abs/2502.17925}{LeanProgress: Guiding Search for Neural Theorem Proving via Proof Progress Prediction}}}
+\cvitem{}{\href{https://hsz0403.github.io/}{Suozhi Huang}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.robertj1.com/}{Robert Joseph George}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}}
+\cvitem{}{\textit{ICLR VerifAI: AI Verification in the Wild Workshop, 2025}}
+
+\vspace{0.5em}
+
+\cvitem{Preprint}{\textbf{\href{https://arxiv.org/abs/2509.03730}{The Personality Illusion: Revealing Dissociation Between Self-Reports \& Behavior in LLMs}}}
+\cvitem{}{\href{https://pengruihan.github.io/}{Pengrui Han}$^\star$, \href{https://www.rkocielnik.com/}{Rafal D. Kocielnik}$^\star$, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.collectivedesign.group.cam.ac.uk/}{Ramit Debnath}, \href{https://www.deanmobbslab.com/people}{Dean Mobbs}, \href{https://www.eas.caltech.edu/people/anima}{Anima Anandkumar}, \href{https://www.rmichaelalvarez.com/}{R. Michael Alvarez}}
+\cvitem{}{\textit{NeurIPS LAW Workshop: Bridging Language, Agent, and World Models, 2025}}
+
+\vspace{0.5em}
+
+\cvitem{Preprint}{\textbf{Energy-Aware Temporal Function Approximation}}
+\cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, and \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
+\cvitem{}{\textit{In Submission, Manuscript Available upon Request}}
 
 %-----------------------------------------------------------------
 %	AWARDS & HONORS SECTION
@@ -208,7 +219,7 @@ Neuro-Symbolic Systems (NeuS), 2025}}
 \vspace{0.5em}
 
 \cvitem{4/2025}{\textbf{George W. Housner Student Discovery Fund}}
-\cvitem{}{In recognition of the \href{https://arxiv.org/abs/2404.12534}{Lean Copilot} paper}
+\cvitem{}{For the \href{https://arxiv.org/abs/2404.12534}{Lean Copilot} paper}
 
 \vspace{0.5em}
 
@@ -278,8 +289,13 @@ Neuro-Symbolic Systems (NeuS), 2025}}
 \section{\textbf{Teaching Experience}}
 \vspace{0.5em}
 
+\cvitem{Winter 2026}{\href{https://www.cms.caltech.edu/academics/courses/mecsee-133-ab}{\textbf{ME/CS/EE 133B: Robotics -- Planning}}}
+\cvitem{}{Teaching Assistant @ \textit{California Institute of Technology}}
+
+\vspace{0.5em}
+
 \cvitem{Fall 2025}{\href{https://www.cms.caltech.edu/academics/courses/mecsee-133-ab}{\textbf{ME/CS/EE 133A: Robotics -- Kinematics}}}
-\cvitem{}{\textit{California Institute of Technology}}
+\cvitem{}{Teaching Assistant @ \textit{California Institute of Technology}}
 
 %-----------------------------------------------------------------
 %	ACADEMIC SERVICES SECTION
@@ -310,12 +326,13 @@ Neuro-Symbolic Systems (NeuS), 2025}}
 
 \vspace{0.5em}
 
-\cvitem{\textbf{Caltech}}{Admissions Ambassador @ Caltech Undergraduate Admissions Office}
-\cvitem{}{First-Year Caltech Connector (FCC) @ Student \& Family Engagement Office}
+\cvitem{\textbf{Organizing Staff}}{Agentic AI Summit 2025 @ UC Berkeley}
 
+\section{\textbf{On-Campus Services \& Appointments}}
 \vspace{0.5em}
 
-\cvitem{\textbf{Organizing Staff}}{Agentic AI Summit 2025 @ UC Berkeley}
+\cvitem{\textbf{Caltech}}{Admissions Ambassador @ Caltech Undergraduate Admissions Office}
+\cvitem{}{First-Year Caltech Connector (FCC) @ Student \& Family Engagement Office}
 
 %-----------------------------------------------------------------
 %	LANGUAGES SECTION
@@ -324,7 +341,7 @@ Neuro-Symbolic Systems (NeuS), 2025}}
 \section{\textbf{Languages}}
 \vspace{0.5em}
 
-\cvitem{Programming}{Python, C++, Lean 4, Java, C, PASCAL, OCaml, C\#}
+\cvitem{Programming}{Python, C++, Lean 4, Java, C, PASCAL, Rocq, OCaml, C\#}
 
 \vspace{0.5em}
 
