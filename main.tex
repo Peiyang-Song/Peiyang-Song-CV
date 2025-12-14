@@ -17,10 +17,6 @@
 % used for structuring the document.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%-----------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%-----------------------------------------------------------------
-
 \documentclass[11pt,letterpaper,sans]{moderncv} 
 % Font sizes: 10, 11, or 12; 
 % paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; 
@@ -35,14 +31,6 @@
 \setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 \setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
-
-\newcommand{\sz}[1]{{\color{orange}[[Shichang: #1]]}}
-
-
-%-----------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION SECTION
-%-----------------------------------------------------------------
-
 \firstname{Peiyang}
 \familyname{Song}
 
@@ -51,15 +39,9 @@
 \email{psong@caltech.edu}
 \homepage{peiyang-song.github.io}{peiyang-song.github.io}
 
-%-----------------------------------------------------------------
-
 \begin{document}
 
-\makecvtitle % Print the CV title
-
-%-----------------------------------------------------------------
-%	EDUCATION SECTION
-%-----------------------------------------------------------------
+\makecvtitle 
 
 \section{\textbf{Education}}
 \vspace{0.5em}
@@ -68,10 +50,6 @@
 \cvitem{(expected)}{\textit{B.S. in Computer Science \& Minor in Robotics}}
 \cvitem{}{Advisors: Prof. \href{https://netlab.caltech.edu/}{Steven Low} \& Prof. \href{https://scholar.google.com/citations?user=-YP8MJ0AAAAJ}{Günter Niemeyer}.}
 \cvitem{}{GPA: \textbf{4.2/4.0} (some courses occasionally offer A+ grade = 4.3)}
-
-%-----------------------------------------------------------------
-%	RESERACH INTERESTS SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Research Interests}}
 \vspace{0.5em}
@@ -86,10 +64,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
   \vspace{0.5em}
   \item \textbf{Broader neuro-symbolic AI:} Applying neuro-symbolic approaches to broader AI challenges beyond formal reasoning, including the design of energy-efficient machine learning systems.
 \end{itemize}
-
-%-----------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Research Experience}}
 \vspace{0.5em}
@@ -119,10 +93,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \cvitem{}{\textit{Researcher @ \href{https://www.arch.cs.ucsb.edu/}{Computer Architecture Lab (ArchLab)}}}
 \cvitem{}{Advisors: Prof. \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood} (UCSB), Dr. \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau} (Google)}
 \cvitem{}{Directions: Energy-Efficient ML Systems, Temporal Logic, Neuro-Symbolic AI}
-
-%-----------------------------------------------------------------
-%	PUBLICATIONS SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Selected Publications \& Preprints}}
 \vspace{0.5em}
@@ -194,7 +164,7 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \vspace{0.5em}
 
 \cvitem{Preprint}{\textbf{AI Impact on Human Proof Formalization Workflows}}
-\cvitem{}{\href{https://collinskatie.github.io/}{Katherine M. Collins$^\star$}, \href{https://www.friederrr.org/}{Simon Frieder$^\star$}, \href{https://www.maths.cam.ac.uk/person/jcb234}{Jonas Bayer}, \href{https://uk.linkedin.com/in/jacob-loader-a47764181}{Jacob Loader}, \href{http://www.limjeck.com/}{Jeck Lim}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.fabianzaiser.com/}{Fabian Zasier}, \href{https://lexzhou.github.io/}{Lexin Zhou}, \href{https://lithiumda.github.io/}{Shanda Li}, \href{https://sites.google.com/view/s-looi/home}{Shi-Zhuo Looi}, \href{https://josephorallo.webs.upv.es/}{Jose Hernandez-Orallo}, \href{https://web.mit.edu/cocosci/josh.html}{Joshua B. Tenenbaum}, \href{https://cfreer.org/}{Cameron Freer}, \href{https://umangsbhatt.github.io/}{Umang Bhatt}, \href{https://mlg.eng.cam.ac.uk/adrian/}{Adrian Weller}, \href{https://valeriechen.github.io/}{Valerie Chen}$^\dagger$, \href{https://ilia10000.github.io/}{Ilia Sucholutsky}$^\dagger$ ($^\star$ Equal Contribution, $^\dagger$ Equal Advising)}
+\cvitem{}{\href{https://collinskatie.github.io/}{Katherine M. Collins$^\star$}, \href{https://www.friederrr.org/}{Simon Frieder$^\star$}, \href{https://www.maths.cam.ac.uk/person/jcb234}{Jonas Bayer}, \href{https://uk.linkedin.com/in/jacob-loader-a47764181}{Jacob Loader}, \href{http://www.limjeck.com/}{Jeck Lim}, \underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.fabianzaiser.com/}{Fabian Zasier}, \href{https://lexzhou.github.io/}{Lexin Zhou}, \href{https://lithiumda.github.io/}{Shanda Li}, \href{https://sites.google.com/view/s-looi/home}{Sam Looi}, \href{https://josephorallo.webs.upv.es/}{Jose Hernandez-Orallo}, \href{https://web.mit.edu/cocosci/josh.html}{Joshua B. Tenenbaum}, \href{https://cfreer.org/}{Cameron Freer}, \href{https://umangsbhatt.github.io/}{Umang Bhatt}, \href{https://mlg.eng.cam.ac.uk/adrian/}{Adrian Weller}, \href{https://valeriechen.github.io/}{Valerie Chen}$^\dagger$, \href{https://ilia10000.github.io/}{Ilia Sucholutsky}$^\dagger$ ($^\star$ Equal Contribution, $^\dagger$ Equal Advising)}
 \cvitem{}{\textit{NeurIPS Workshop on Mathematical Reasoning and AI (MATH-AI), 2025}}
 
 \vspace{0.5em}
@@ -202,10 +172,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \cvitem{Preprint}{\textbf{Energy-Aware Temporal Function Approximation}}
 \cvitem{}{\underline{\href{https://peiyang-song.github.io/}{Peiyang Song}}, \href{https://www.linkedin.com/in/rhys-gretsch-462a951ab}{Rhys Gretsch}, \href{https://dl.acm.org/profile/81100206077}{Jeremy Lau}, and \href{https://www.arch.cs.ucsb.edu/prof-sherwood}{Timothy Sherwood}}
 \cvitem{}{\textit{In Submission, Manuscript Available upon Request}}
-
-%-----------------------------------------------------------------
-%	AWARDS & HONORS SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Selected Awards}}
 \vspace{0.5em}
@@ -221,7 +187,7 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \vspace{0.5em}
 
 \cvitem{5/2025}{\textbf{ICLR Notable Reviewer Award}}
-\cvitem{}{In recognition of outstanding review work at ICLR 2025}
+\cvitem{}{In recognition of outstanding review service at ICLR 2025}
 
 \vspace{0.5em}
 
@@ -241,11 +207,7 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \vspace{0.5em}
 
 \cvitem{4/2023}{\textbf{Caltech SURF Award}}
-\cvitem{}{For research work on macchine learning for theorem proving in Lean}
-
-%-----------------------------------------------------------------
-%	MEDIA SECTION
-%-----------------------------------------------------------------
+\cvitem{}{For research work on machine learning for theorem proving in Lean}
 
 \section{\textbf{Selected Media}}
 \vspace{0.5em}
@@ -266,10 +228,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 
 \cvitem{2023}{\textbf{\href{https://www.marktechpost.com/2023/07/01/can-llms-generate-mathematical-proofs-that-can-be-rigorously-checked-meet-leandojo-an-open-source-ai-playground-with-toolkits-benchmarks-and-models-for-large-language-models-to-prove-formal-theore/}{Can LLMs Generate Mathematical Proofs That Can Be Rigorously Checked?}}}
 \cvitem{}{\textit{MarkTechPost}}
-
-%-----------------------------------------------------------------
-%	TALKS SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Invited Talks \& Tutorials}}
 \vspace{0.5em}
@@ -292,10 +250,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 \cvitem{11/2023}{CCS Research \& Creative Activities Conference (RACA-CON)}
 \cvitem{8/2023}{Caltech SURF Seminar Day}
 
-%-----------------------------------------------------------------
-%	ACADEMIC SERVICES SECTION
-%-----------------------------------------------------------------
-
 \section{\textbf{Teaching Experience}}
 \vspace{0.5em}
 
@@ -304,10 +258,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 
 \cvitem{Fall 2025}{\href{https://www.cms.caltech.edu/academics/courses/mecsee-133-ab}{\textbf{ME/CS/EE 133A: Robotics -- Kinematics}}}
 \cvitem{}{Teaching Assistant @ \textit{California Institute of Technology}}
-
-%-----------------------------------------------------------------
-%	ACADEMIC SERVICES SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Academic Services}}
 \vspace{0.5em}
@@ -341,10 +291,6 @@ My research focuses on \textbf{LLM reasoning}, \textbf{agentic AI}, and \textbf{
 
 \cvitem{\textbf{Caltech}}{Admissions Ambassador @ Caltech Undergraduate Admissions Office}
 \cvitem{}{First-Year Caltech Connector (FCC) @ Student \& Family Engagement Office}
-
-%-----------------------------------------------------------------
-%	LANGUAGES SECTION
-%-----------------------------------------------------------------
 
 \section{\textbf{Languages}}
 \vspace{0.5em}
